@@ -1,0 +1,34 @@
+.Nav__Item {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  color: rgba(222, 235, 255);
+  background-color: #0747a6;
+  fill: #0747a6;
+  -moz-box-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  border: medium none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  line-height: 1;
+  width: 40px;
+  height: 40px;
+  -moz-box-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-top: 0px;
+  padding: 0px;
+  outline: currentcolor none medium;
+  text-align: center;
+}
+
+.Nav__Item--Wrapper {
+  height: 24px;
+  width: 24px;
+  color: currentcolor;
+  display: inline-block;
+  fill: rgba(255, 255, 255);
+  flex-shrink: 0;
+  line-height: 1;
+}

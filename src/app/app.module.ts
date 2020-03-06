@@ -4,13 +4,20 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { ServicesModule } from '@parvathyg/services';
+import { NavModule } from '@parvathyg/nav';
+import { ExternalComponent } from './external/external.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ExternalComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NavModule,
+    ServicesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
